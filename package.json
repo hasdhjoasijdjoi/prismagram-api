@@ -1,0 +1,19 @@
+{
+  "name": "prismagram-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/doggodie0808/prismagram-api.git",
+  "author": "<qudtls1717@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
